@@ -12,9 +12,6 @@ import pandas as pd
 import json
 import knnimpute
 
-plot_save_path = 'plot2'
-digest_file_name = 'digest2.json'
-
 
 def is_empty_data(value: str):
     v = value.lower()
@@ -49,14 +46,19 @@ def read_dataset(csv_file, flag_file):
 
 
 def impute_data_knn(data: pd.DataFrame, n_nearest_samples=5):
+    batch_size = 10000
     data_arr = np.array(data)
-    data_arr = data_arr[:10000]
-    missing_mask = np.zeros(np.shape(data_arr), np.int8)
-    for i in range(np.shape(missing_mask)[0]):
-        for j in range(np.shape(missing_mask)[1]):
-            missing_mask[i][j] = 1 if np.isnan(data_arr[i][j]) else 0
-
-    X_imputed = knnimpute.knn_impute_few_observed(data_arr, missing_mask, k=n_nearest_samples)
+    data_imputed = np.zeros(shape=np.shape(data_arr), dtype=np.float32)
+    n_samples, n_features = np.shape(data_arr)
+    for i in range(0, data_arr.shape[0], batch_size):
+        data_arr_batch = data_arr[i: min(i + batch_size, n_samples)]
+        missing_mask = np.zeros(np.shape(data_arr_batch), np.int8)
+        for i in range(np.shape(missing_mask)[0]):
+            for j in range(np.shape(missing_mask)[1]):
+                missing_mask[i][j] = 1 if np.isnan(data_arr_batch[i][j]) else 0
+        x_imputed = knnimpute.knn_impute_few_observed(data_arr_batch, missing_mask, k=n_nearest_samples)
+        data_imputed[i: min(i + batch_size, n_samples)] = x_imputed
+    return data_imputed
 
 
 def impute_data_column(data: pd.DataFrame, n_nearest_cols=3):
@@ -99,12 +101,6 @@ def impute_data_column(data: pd.DataFrame, n_nearest_cols=3):
             missing_value = np.sum(weights * row) * (col_max - col_min) + col_min
             data_imputed[row_index][col_index] = missing_value
     return data_imputed
-
-
-
-
-
-
 
 
 def main():
