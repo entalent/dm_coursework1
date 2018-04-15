@@ -200,9 +200,9 @@ def impute_data_mice(data: pd.DataFrame):
 
 
 def main():
-    for s in ['column']:
-        # read_dataset(u"E:\\BaiduNetdiskDownload\作业1数据集\\NFL Play by Play 2009-2017 (v4).csv\\NFL Play by Play 2009-2017 (v4).csv",
-        #              '1.csv', "NFL", s)
+    for s in ['mode', 'column', 'knn', ]:
+        read_dataset(u"E:\\BaiduNetdiskDownload\作业1数据集\\NFL Play by Play 2009-2017 (v4).csv\\NFL Play by Play 2009-2017 (v4).csv",
+                     '1.csv', "NFL", s)
         read_dataset(u"E:\\BaiduNetdiskDownload\\作业1数据集\\Building_Permits.csv\\Building_Permits.csv",
                      '2.csv', 'BuildingPermits', s)
 

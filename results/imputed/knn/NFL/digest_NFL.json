@@ -1,0 +1,632 @@
+[
+    {
+        "column name": "TimeUnder",
+        "info": {
+            "average": 7.374200344085693,
+            "max": 15.0,
+            "median": 7.0,
+            "min": 0.0,
+            "missing": 0,
+            "quartile": [
+                3.0,
+                7.0,
+                11.0
+            ]
+        }
+    },
+    {
+        "column name": "TimeSecs",
+        "info": {
+            "average": 1695.18994140625,
+            "max": 3600.0,
+            "median": 1800.0,
+            "min": -900.0,
+            "missing": 0,
+            "quartile": [
+                778.0,
+                1800.0,
+                2584.0
+            ]
+        }
+    },
+    {
+        "column name": "PlayTimeDiff",
+        "info": {
+            "average": 20.568099975585938,
+            "max": 943.0,
+            "median": 17.0,
+            "min": 0.0,
+            "missing": 2,
+            "quartile": [
+                5.0,
+                17.0,
+                37.0
+            ]
+        }
+    },
+    {
+        "column name": "yrdln",
+        "info": {
+            "average": 28.4815731048584,
+            "max": 50.0,
+            "median": 30.0,
+            "min": 0.9999999403953552,
+            "missing": 9,
+            "quartile": [
+                20.0,
+                30.0,
+                39.0
+            ]
+        }
+    },
+    {
+        "column name": "yrdline100",
+        "info": {
+            "average": 48.61785888671875,
+            "max": 99.0,
+            "median": 49.0,
+            "min": 0.9999999403953552,
+            "missing": 9,
+            "quartile": [
+                30.0,
+                49.0,
+                70.0
+            ]
+        }
+    },
+    {
+        "column name": "ydstogo",
+        "info": {
+            "average": 7.309403419494629,
+            "max": 50.0,
+            "median": 9.0,
+            "min": 0.0,
+            "missing": 0,
+            "quartile": [
+                3.0,
+                9.0,
+                10.0
+            ]
+        }
+    },
+    {
+        "column name": "ydsnet",
+        "info": {
+            "average": 25.94551658630371,
+            "max": 99.0,
+            "median": 19.0,
+            "min": -87.0,
+            "missing": 0,
+            "quartile": [
+                5.0,
+                19.0,
+                43.0
+            ]
+        }
+    },
+    {
+        "column name": "Yards.Gained",
+        "info": {
+            "average": 4.994221210479736,
+            "max": 99.0,
+            "median": 1.0,
+            "min": -74.0,
+            "missing": 0,
+            "quartile": [
+                0.0,
+                1.0,
+                7.0
+            ]
+        }
+    },
+    {
+        "column name": "AirYards",
+        "info": {
+            "average": 3.2640058994293213,
+            "max": 84.0,
+            "median": 0.0,
+            "min": -70.0,
+            "missing": 0,
+            "quartile": [
+                0.0,
+                0.0,
+                4.0
+            ]
+        }
+    },
+    {
+        "column name": "YardsAfterCatch",
+        "info": {
+            "average": 1.2525975704193115,
+            "max": 90.0,
+            "median": 0.0,
+            "min": -81.0,
+            "missing": 0,
+            "quartile": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        }
+    },
+    {
+        "column name": "FieldGoalDistance",
+        "info": {
+            "average": 37.48740005493164,
+            "max": 71.0,
+            "median": 38.0,
+            "min": 18.0,
+            "missing": 355585,
+            "quartile": [
+                30.0,
+                38.0,
+                45.0
+            ]
+        }
+    },
+    {
+        "column name": "Penalty.Yards",
+        "info": {
+            "average": 0.6136727333068848,
+            "max": 66.0,
+            "median": 0.0,
+            "min": 0.0,
+            "missing": 0,
+            "quartile": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        }
+    },
+    {
+        "column name": "PosTeamScore",
+        "info": {
+            "average": 10.057844161987305,
+            "max": 61.0,
+            "median": 7.0,
+            "min": 0.0,
+            "missing": 7533,
+            "quartile": [
+                0.0,
+                7.0,
+                16.0
+            ]
+        }
+    },
+    {
+        "column name": "DefTeamScore",
+        "info": {
+            "average": 11.21817398071289,
+            "max": 61.0,
+            "median": 10.0,
+            "min": 0.0,
+            "missing": 7533,
+            "quartile": [
+                3.0,
+                10.0,
+                17.0
+            ]
+        }
+    },
+    {
+        "column name": "ScoreDiff",
+        "info": {
+            "average": -1.1343286037445068,
+            "max": 59.0,
+            "median": 0.0,
+            "min": -59.0,
+            "missing": 5296,
+            "quartile": [
+                -7.0,
+                0.0,
+                4.0
+            ]
+        }
+    },
+    {
+        "column name": "AbsScoreDiff",
+        "info": {
+            "average": 7.463662624359131,
+            "max": 59.0,
+            "median": 6.0,
+            "min": 0.0,
+            "missing": 7533,
+            "quartile": [
+                2.0,
+                6.0,
+                11.0
+            ]
+        }
+    },
+    {
+        "column name": "posteam_timeouts_pre",
+        "info": {
+            "average": 2.5212392807006836,
+            "max": 3.0,
+            "median": 3.0,
+            "min": 0.0,
+            "missing": 0,
+            "quartile": [
+                2.0,
+                3.0,
+                3.0
+            ]
+        }
+    },
+    {
+        "column name": "HomeTimeouts_Remaining_Pre",
+        "info": {
+            "average": 2.5404794216156006,
+            "max": 3.0,
+            "median": 3.0,
+            "min": -3.0,
+            "missing": 0,
+            "quartile": [
+                2.0,
+                3.0,
+                3.0
+            ]
+        }
+    },
+    {
+        "column name": "AwayTimeouts_Remaining_Pre",
+        "info": {
+            "average": 2.517221450805664,
+            "max": 3.0,
+            "median": 3.0,
+            "min": -1.0,
+            "missing": 0,
+            "quartile": [
+                2.0,
+                3.0,
+                3.0
+            ]
+        }
+    },
+    {
+        "column name": "HomeTimeouts_Remaining_Post",
+        "info": {
+            "average": 2.520118236541748,
+            "max": 3.0,
+            "median": 3.0,
+            "min": -3.0,
+            "missing": 0,
+            "quartile": [
+                2.0,
+                3.0,
+                3.0
+            ]
+        }
+    },
+    {
+        "column name": "AwayTimeouts_Remaining_Post",
+        "info": {
+            "average": 2.4963672161102295,
+            "max": 3.0,
+            "median": 3.0,
+            "min": -1.0,
+            "missing": 0,
+            "quartile": [
+                2.0,
+                3.0,
+                3.0
+            ]
+        }
+    },
+    {
+        "column name": "No_Score_Prob",
+        "info": {
+            "average": 0.12778161466121674,
+            "max": 1.0,
+            "median": 0.024739094078540802,
+            "min": 0.0,
+            "missing": 0,
+            "quartile": [
+                0.0027856241213157773,
+                0.024739094078540802,
+                0.17242702841758728
+            ]
+        }
+    },
+    {
+        "column name": "Opp_Field_Goal_Prob",
+        "info": {
+            "average": 0.09458930790424347,
+            "max": 0.3601768910884857,
+            "median": 0.08305796980857849,
+            "min": 0.0,
+            "missing": 0,
+            "quartile": [
+                0.03456364944577217,
+                0.08305796980857849,
+                0.14992763102054596
+            ]
+        }
+    },
+    {
+        "column name": "Opp_Safety_Prob",
+        "info": {
+            "average": 0.002494443440809846,
+            "max": 0.031461138278245926,
+            "median": 0.0009873558301478624,
+            "min": 0.0,
+            "missing": 0,
+            "quartile": [
+                0.00010403533269709442,
+                0.0009873558301478624,
+                0.0038445950485765934
+            ]
+        }
+    },
+    {
+        "column name": "Opp_Touchdown_Prob",
+        "info": {
+            "average": 0.13993573188781738,
+            "max": 0.49687421321868896,
+            "median": 0.12398436665534973,
+            "min": 0.0,
+            "missing": 0,
+            "quartile": [
+                0.03979452792555094,
+                0.12398436665534973,
+                0.226393673568964
+            ]
+        }
+    },
+    {
+        "column name": "Field_Goal_Prob",
+        "info": {
+            "average": 0.24383464455604553,
+            "max": 0.9946049451828003,
+            "median": 0.2312270700931549,
+            "min": 0.0,
+            "missing": 0,
+            "quartile": [
+                0.15231988579034805,
+                0.2312270700931549,
+                0.3261285051703453
+            ]
+        }
+    },
+    {
+        "column name": "Safety_Prob",
+        "info": {
+            "average": 0.002632777439430356,
+            "max": 0.015176640823483467,
+            "median": 0.0029897289350628853,
+            "min": 0.0,
+            "missing": 0,
+            "quartile": [
+                0.0018812954076565802,
+                0.0029897288186475635,
+                0.0035815528826788068
+            ]
+        }
+    },
+    {
+        "column name": "Touchdown_Prob",
+        "info": {
+            "average": 0.29584023356437683,
+            "max": 0.9129632115364075,
+            "median": 0.3136756122112274,
+            "min": 0.0,
+            "missing": 0,
+            "quartile": [
+                0.19104978814721107,
+                0.3136756122112274,
+                0.4076220691204071
+            ]
+        }
+    },
+    {
+        "column name": "ExPoint_Prob",
+        "info": {
+            "average": 0.024071644991636276,
+            "max": 0.99312824010849,
+            "median": 0.0,
+            "min": 0.0,
+            "missing": 0,
+            "quartile": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        }
+    },
+    {
+        "column name": "TwoPoint_Prob",
+        "info": {
+            "average": 0.0007026633829809725,
+            "max": 0.47350001335144043,
+            "median": 0.0,
+            "min": 0.0,
+            "missing": 0,
+            "quartile": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        }
+    },
+    {
+        "column name": "ExpPts",
+        "info": {
+            "average": 1.5648211240768433,
+            "max": 6.500899791717529,
+            "median": 1.256563663482666,
+            "min": -3.8364877700805664,
+            "missing": 0,
+            "quartile": [
+                0.3221869617700577,
+                1.2565636038780212,
+                2.8815077543258667
+            ]
+        }
+    },
+    {
+        "column name": "EPA",
+        "info": {
+            "average": 0.01963955909013748,
+            "max": 9.508014678955078,
+            "median": 0.0,
+            "min": -13.494135856628418,
+            "missing": 17,
+            "quartile": [
+                -0.5983814895153046,
+                0.0,
+                0.5625791549682617
+            ]
+        }
+    },
+    {
+        "column name": "airEPA",
+        "info": {
+            "average": 0.5632981061935425,
+            "max": 7.346968650817871,
+            "median": 0.3224429786205292,
+            "min": -12.849594116210938,
+            "missing": 236864,
+            "quartile": [
+                -0.500825822353363,
+                0.3224429786205292,
+                1.4563019275665283
+            ]
+        }
+    },
+    {
+        "column name": "yacEPA",
+        "info": {
+            "average": -0.3844199776649475,
+            "max": 9.559834480285645,
+            "median": 0.0,
+            "min": -14.0,
+            "missing": 238603,
+            "quartile": [
+                -1.0200035572052002,
+                0.0,
+                0.49669885635375977
+            ]
+        }
+    },
+    {
+        "column name": "Home_WP_pre",
+        "info": {
+            "average": 0.5344517230987549,
+            "max": 1.0000001192092896,
+            "median": 0.5236096382141113,
+            "min": 0.0,
+            "missing": 3928,
+            "quartile": [
+                0.3323613330721855,
+                0.5236096680164337,
+                0.764753594994545
+            ]
+        }
+    },
+    {
+        "column name": "Away_WP_pre",
+        "info": {
+            "average": 0.470473974943161,
+            "max": 1.0000001192092896,
+            "median": 0.47996601462364197,
+            "min": 0.0,
+            "missing": 3928,
+            "quartile": [
+                0.24173178896307945,
+                0.47996601462364197,
+                0.6753597110509872
+            ]
+        }
+    },
+    {
+        "column name": "Home_WP_post",
+        "info": {
+            "average": 0.5349499583244324,
+            "max": 1.0000001192092896,
+            "median": 0.5307599306106567,
+            "min": 0.0,
+            "missing": 13052,
+            "quartile": [
+                0.33075128495693207,
+                0.5307599306106567,
+                0.7667784094810486
+            ]
+        }
+    },
+    {
+        "column name": "Away_WP_post",
+        "info": {
+            "average": 0.4676034152507782,
+            "max": 1.0000001192092896,
+            "median": 0.47076326608657837,
+            "min": 0.0,
+            "missing": 13052,
+            "quartile": [
+                0.23646865412592888,
+                0.47076326608657837,
+                0.6727121621370316
+            ]
+        }
+    },
+    {
+        "column name": "Win_Prob",
+        "info": {
+            "average": 0.5001395344734192,
+            "max": 1.0,
+            "median": 0.5000067949295044,
+            "min": 0.0,
+            "missing": 3874,
+            "quartile": [
+                0.28114092350006104,
+                0.5000067949295044,
+                0.719602182507515
+            ]
+        }
+    },
+    {
+        "column name": "WPA",
+        "info": {
+            "average": 0.002272087149322033,
+            "max": 0.9948481917381287,
+            "median": 0.0,
+            "min": -0.9972143173217773,
+            "missing": 1781,
+            "quartile": [
+                -0.014671019278466702,
+                0.0,
+                0.014685465954244137
+            ]
+        }
+    },
+    {
+        "column name": "airWPA",
+        "info": {
+            "average": 0.015611976385116577,
+            "max": 0.9948481917381287,
+            "median": 0.004168188665062189,
+            "min": -0.9998809099197388,
+            "missing": 237453,
+            "quartile": [
+                -0.01155768521130085,
+                0.004168188665062189,
+                0.03852887451648712
+            ]
+        }
+    },
+    {
+        "column name": "yacWPA",
+        "info": {
+            "average": -0.009742451831698418,
+            "max": 1.0,
+            "median": 0.0,
+            "min": -0.9866729378700256,
+            "missing": 239258,
+            "quartile": [
+                -0.020444609690457582,
+                0.0,
+                0.012084976304322481
+            ]
+        }
+    }
+]

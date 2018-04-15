@@ -1,0 +1,92 @@
+[
+    {
+        "column name": "Number of Existing Stories",
+        "info": {
+            "average": 6.149606227874756,
+            "max": 78.0,
+            "median": 3.0,
+            "min": 0.0,
+            "missing": 34901,
+            "quartile": [
+                2.0,
+                3.0,
+                4.0
+            ]
+        }
+    },
+    {
+        "column name": "Number of Proposed Stories",
+        "info": {
+            "average": 7.437892436981201,
+            "max": 78.0,
+            "median": 3.0,
+            "min": 0.0,
+            "missing": 1007,
+            "quartile": [
+                2.0,
+                3.0,
+                7.0
+            ]
+        }
+    },
+    {
+        "column name": "Estimated Cost",
+        "info": {
+            "average": 9835812.0,
+            "max": 537958656.0,
+            "median": 20000.0,
+            "min": 1.0,
+            "missing": 603,
+            "quartile": [
+                5000.0,
+                20000.0,
+                160000.0
+            ]
+        }
+    },
+    {
+        "column name": "Revised Cost",
+        "info": {
+            "average": 2287063.75,
+            "max": 780500032.0,
+            "median": 7500.0,
+            "min": 0.0,
+            "missing": 2642,
+            "quartile": [
+                1.0,
+                7500.0,
+                30000.0
+            ]
+        }
+    },
+    {
+        "column name": "Existing Units",
+        "info": {
+            "average": 17.277498245239258,
+            "max": 1907.0,
+            "median": 1.0,
+            "min": 0.0,
+            "missing": 44560,
+            "quartile": [
+                1.0,
+                1.0,
+                4.0
+            ]
+        }
+    },
+    {
+        "column name": "Proposed Units",
+        "info": {
+            "average": 44.707637786865234,
+            "max": 1911.0,
+            "median": 2.0,
+            "min": 0.0,
+            "missing": 10517,
+            "quartile": [
+                1.0,
+                2.0,
+                26.0
+            ]
+        }
+    }
+]
