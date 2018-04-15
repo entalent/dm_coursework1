@@ -41,7 +41,6 @@ def read_dataset(csv_file, flag_file, digest_file_numeric, digest_file_nominal, 
     plot_and_digest(data_numeric, digest_file_name=digest_file_numeric, plot_dir=plot_dir)
 
 
-
 def plot_and_digest(data: pd.DataFrame, plot_dir, digest_file_name):
     def process_numberic_data_column(data_frame: pd.DataFrame, column_name: str):
         data = np.array(data_frame[column_name])
@@ -58,7 +57,7 @@ def plot_and_digest(data: pd.DataFrame, plot_dir, digest_file_name):
         digest_results.append(d)
 
     f_digest_file = open(digest_file_name, 'w')
-    json.dump(digest_results, f_digest_file, indent=4)
+    json.dump(digest_results, f_digest_file, indent=4, sort_keys=True)
     f_digest_file.close()
 
 
