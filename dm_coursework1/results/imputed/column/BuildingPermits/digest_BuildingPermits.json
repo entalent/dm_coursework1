@@ -1,0 +1,92 @@
+[
+    {
+        "column name": "Number of Existing Stories",
+        "info": {
+            "average": 5.705773271157344,
+            "max": 78.0,
+            "median": 3.0,
+            "min": 0.0,
+            "missing": 42784,
+            "quartile": [
+                2.0,
+                3.0,
+                4.0
+            ]
+        }
+    },
+    {
+        "column name": "Number of Proposed Stories",
+        "info": {
+            "average": 5.745042683552092,
+            "max": 78.0,
+            "median": 3.0,
+            "min": 0.0,
+            "missing": 42868,
+            "quartile": [
+                2.0,
+                3.0,
+                4.0
+            ]
+        }
+    },
+    {
+        "column name": "Estimated Cost",
+        "info": {
+            "average": 168955.44329681536,
+            "max": 537958646.0,
+            "median": 11000.0,
+            "min": 1.0,
+            "missing": 38066,
+            "quartile": [
+                3300.0,
+                11000.0,
+                35000.0
+            ]
+        }
+    },
+    {
+        "column name": "Revised Cost",
+        "info": {
+            "average": 132856.1864917494,
+            "max": 780500000.0,
+            "median": 7000.0,
+            "min": 0.0,
+            "missing": 6066,
+            "quartile": [
+                1.0,
+                7000.0,
+                28707.5
+            ]
+        }
+    },
+    {
+        "column name": "Existing Units",
+        "info": {
+            "average": 15.666164275729155,
+            "max": 1907.0,
+            "median": 1.0,
+            "min": 0.0,
+            "missing": 51538,
+            "quartile": [
+                1.0,
+                1.0,
+                4.0
+            ]
+        }
+    },
+    {
+        "column name": "Proposed Units",
+        "info": {
+            "average": 16.510950138185947,
+            "max": 1911.0,
+            "median": 2.0,
+            "min": 0.0,
+            "missing": 50911,
+            "quartile": [
+                1.0,
+                2.0,
+                4.0
+            ]
+        }
+    }
+]

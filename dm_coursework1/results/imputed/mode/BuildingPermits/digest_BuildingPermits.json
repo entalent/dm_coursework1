@@ -1,0 +1,92 @@
+[
+    {
+        "column name": "Number of Existing Stories",
+        "info": {
+            "average": 4.908650075414782,
+            "max": 78.0,
+            "median": 2.0,
+            "min": 0.0,
+            "missing": 0,
+            "quartile": [
+                2.0,
+                2.0,
+                3.0
+            ]
+        }
+    },
+    {
+        "column name": "Number of Proposed Stories",
+        "info": {
+            "average": 4.937890899949723,
+            "max": 78.0,
+            "median": 2.0,
+            "min": 0.0,
+            "missing": 0,
+            "quartile": [
+                2.0,
+                2.0,
+                4.0
+            ]
+        }
+    },
+    {
+        "column name": "Estimated Cost",
+        "info": {
+            "average": 136620.50192659628,
+            "max": 537958646.0,
+            "median": 7000.0,
+            "min": 1.0,
+            "missing": 0,
+            "quartile": [
+                1.0,
+                7000.0,
+                25000.0
+            ]
+        }
+    },
+    {
+        "column name": "Revised Cost",
+        "info": {
+            "average": 128804.40388109605,
+            "max": 780500000.0,
+            "median": 6300.0,
+            "min": 0.0,
+            "missing": 0,
+            "quartile": [
+                1.0,
+                6300.0,
+                26200.0
+            ]
+        }
+    },
+    {
+        "column name": "Existing Units",
+        "info": {
+            "average": 11.865939165409753,
+            "max": 1907.0,
+            "median": 1.0,
+            "min": 0.0,
+            "missing": 0,
+            "quartile": [
+                1.0,
+                1.0,
+                2.0
+            ]
+        }
+    },
+    {
+        "column name": "Proposed Units",
+        "info": {
+            "average": 12.540723981900452,
+            "max": 1911.0,
+            "median": 1.0,
+            "min": 0.0,
+            "missing": 0,
+            "quartile": [
+                1.0,
+                1.0,
+                3.0
+            ]
+        }
+    }
+]
